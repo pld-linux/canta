@@ -10,7 +10,7 @@ Source0:	http://cgit.canta-game.org/cgit.cgi/canta/snapshot/%{name}-%{version}-%
 Patch0:		%{name}-install_dirs.patch
 URL:		http://www.canta-game.org/
 BuildRequires:	rpm-pythonprov
-BuildRequires:	rpmbuild(macros) >= 1.219
+BuildRequires:	rpmbuild(macros) >= 1.710
 Requires:	canta-media
 Requires:	python-Soya
 Requires:	python-configobj
