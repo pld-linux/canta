@@ -28,7 +28,7 @@ or to improve the user's musical knowledge.
 
 %prep
 %setup -q -n %{name}-%{version}-%{_rc}
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %py_build
